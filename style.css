@@ -14,10 +14,46 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 24px;
 }
 
 .cabecalho-imagem {
     height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Trispace', sans-serif;
+    color:deeppink;
+    font-weight:400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FF1493;
+}
+
+.rodape-imagem {
+   height: 48px;
+   display: block;
+   margin: 0 auto;
+   
+
 }
