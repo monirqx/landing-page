@@ -9,3 +9,15 @@ body {
     font-size: 100;
     background: fixed #000;
 }
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
