@@ -54,17 +54,21 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous';
+    font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 45px;
+    line-height: 56px;;
     color: #000;
 }
 
 .conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #000;
+        font-family: 'Sarala';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 39px;
+        color: #000000;
 }
 
 .conteudo-principal-escrito-botao {
