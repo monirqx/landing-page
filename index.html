@@ -1,88 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-sale=1.0">
-    <meta name="description" content="Minha primeira página!">
-    <title> Testando conhecimentos - HTML E CSS </title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Monirqx</title>
 </head>
 
-
 <body>
+    <div class="container">
+        <div class="form-image">
+            <img src="imagem.svg" alt="">
+        </div>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Bem-vindo a minha página!</h1>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
 
-    <header class="cabecalho">
-        <nav class="cabecalho-menu" >
-            <a class="cabecalho-menu-item" href="https://www.instagram.com/monirq/">Instagram</a>
-            <a class="cabecalho-menu-item" href="https://twitter.com/monirqx">Twitter</a>
-            <a class="cabecalho-menu-item" href="https://www.tiktok.com/@monirqx">Tiktok</a>
-            <a class="cabecalho-menu-item" href="https://www.linkedin.com/in/monique-pacheco-927349218/">Linkedin</a>
-            <a class="cabecalho-menu-item" href="https://github.com/monirqx/">Github</a>
-        </nav>
-    </header>
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
 
 
-    <main class="conteudo" >
-        <section class="conteudo-principal">
-            <div class="conteudo-principal-escrito">
-                <h1 class="conteudo-principal-escrito-titulo">Bem-vindo a minha primeira página!</h1>
-                <h2 class="conteudo-principal-escrito-subtitulo">Veja minha evolução!</h2>
-                <button class="conteudo-principal-escrito-botao">Github</button>
-            </div>
-        <img class="conteudo-principal-imagem" src="moniquinha.svg" alt="Imagem da Monique">
-        </section>
-
-        <section class="conteudo-secundario">
-            <h3 class="conteudo-secundario-titulo">Quem sou eu?</h3>
-            <h4 class="conteudo-secundario-paragrafo">Prazer, meu nome é <strong>Monique</strong>, sou estudante de telecomunicações e atualmente trabalho
-            numa grande empresa de tecnologia. Estou estudando HTML e CSS por conta própria e adorando!</h4>
-        </section>
-
-        
-        <div class="Caixa">
-            <div class="Card">
-                <i class="fas fa-bars"></i>
-                <h5>Projeto formulário</h5>
-                <div class="Paragrafo-button">
-                    <p>Repositório do github de um projeto pessoal de um formulário genérico de cadastro.</p>
-                    <a href="https://github.com/monirqx/formulario"><button type="button">Acesse aqui</button></a>
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
                 </div>
-            </div>
-
-            <div class="Card">
-                <i class="fas fa-user"></i>
-                <h5>Projeto snake game</h5>
-                <div class="Paragrafo-button">
-                    <p>Reposítorio do github de um projeto pessoal para treinar a programação de um jogo da cobrinha retro.</p>
-                    <button type="button">Acesse aqui</button>
-                </div>
-            </div>
-
-            <div class="Card">
-                <i class="fas fa-bell"></i>
-                <h5>Projeto página google</h5>
-                <div class="Paragrafo-button">
-                    <p>Reposítorio do github de um projeto pessoal de fazer a página de pesquisa do google.</p>
-                    <button type="button">Acesse aqui</button>
-                </div>
-            </div>
         </div>
     </div>
-    
-    <div class="me-contate">
-        <p>Você pode me contatar por e-mail!</p>
-        <button type="button">moniquepachecoj@gmail.com</button>
-    </div>
-    </main>
-
-     <footer>
-          <h6>Monique Pacheco</h6>
-        <p class="end">♡</p>
-    </footer>
-
-
 </body>
+
 
 
 </html>
