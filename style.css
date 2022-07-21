@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Righteous', cursive;
 }
 
 body {
@@ -20,7 +20,9 @@ body {
     width: 80%;
     height: 80vh;
     display: flex;
-    box-shadow: 5px 5px 10px #DA627D;;
+    box-shadow: 5px 5px 10px #DA627D;
+    background-color: #DA627D;
+    border-radius: 30px;
 }
 
 .form-image {
@@ -30,62 +32,44 @@ body {
     align-items: center;
     background-color: #DA627D;
     padding: 1rem;
+    border-radius: 30px;
 }
 
 .form-image img {
     width: 31rem;
 }
 
-.form {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    padding: 3rem;
-}
-
 .form-header {
     margin-bottom: 3rem;
     display: flex;
-        background-color: #DA627D;
-    justify-content: space-between;
-}
-
-.form-header h1::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
     background-color: #DA627D;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
-
-.input-group {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0;
-    background-color: #DA627D;;
+    padding-left: 100px;
+    padding-top: 100px;
+    border-radius: 30px;
 }
 
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-        background-color: #DA627D;
+h2 {
+    padding-left: 100px;
 }
 
-.input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
+button.conteudo-principal-escrito-botao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 50px;
+        width: 143px;
+        height: 44px;
+        left: 816px;
+        top: 492px;
+        background-color: #A53860;
+        outline: none;
+}
+
+.button {
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: 0.8rem;
 }
 
 .input-box input:hover {
@@ -93,7 +77,66 @@ body {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #450920;
 }
 
+.Caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Card {
+    background: #333146;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Sarala';
+    color: #fff;
+
+}
+
+.Card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #3f3d56;
+}
+
+h5 {
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Righteous';
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.Paragrafo-button button {
+    margin-top: 25px;
+}
+
+.me-contate {
+    width: 100%;
+    height: 290px;
+    background-color: #3f3d56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.me-contate p {
+    color: #fff;
+    font-family: 'Righteous';
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
 
