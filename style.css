@@ -19,7 +19,7 @@ body {
         justify-content: center;
         align-items: center;
         background-color: #ffa5ab;
-        border-radius: 30px;
+    border-radius: 30px;
 }
 
 .container {
@@ -44,11 +44,22 @@ body {
     width: 31rem;
 }
 
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #ffa5ab;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 30px;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 24px;
     background-color: #ffa5ab;
     border-radius: 30px;
@@ -65,10 +76,9 @@ body {
     gap: 32px;
 }
 
-.cabecalho-menu-item {
-    font-family: 'Sarala', sans-serif; 
- font-weight: 400;
-    font-size: 18px;
+h1 {
+    align-items: center;
+    padding-top: 160px;
 }
 
 .conteudo {
@@ -355,47 +365,13 @@ footer p {
     align-items: center;
     background-color: #DA627D;
     padding: 3rem;
-            border-radius: 30px;
+    border-radius: 30px;
 }
 
 .form-header {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-}
-
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
-.login-button button {
-    border: none;
-    background-color: #6c63ff;
-    padding: 0.4rem 1rem;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.login-button button:hover {
-    background-color: #6b63fff1;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
-}
-
-.form-header h1::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background-color: #6c63ff;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 30px;
 }
 
 .input-group {
