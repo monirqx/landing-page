@@ -41,7 +41,7 @@ body {
 }
 
 .form-image img {
-    width: 31rem;
+    width: 40rem;
 }
 
 .form-header h1::after {
@@ -78,169 +78,18 @@ body {
 
 h1 {
     align-items: center;
-    padding-top: 160px;
+    padding-top: 40px;
+    padding: 0%;
 }
 
-.conteudo {
-    margin-bottom: 40px;
-    border-top: 0.4px solid #ffa5ab;
-}
-
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #ffa5ab;
-}
-
-.conteudo-principal-escrito {
-    font-family: 'Righteous';
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    background-color: #ffa5ab;
-}
-
-.conteudo-principal-escrito-titulo {
-    position: absolute;
-    width: 412px;
-    height: 137px;
-    left: 228px;
-    top: 176px;
-    font-family: 'Righteous';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 56px;
-    color: #fff;
-}
-
-.conteudo-principal-escrito-subtitulo {
-    position: absolute;
-    width: 545px;
-    height: 46px;
-    left: 228px;
-    top: 323px;
-    font-family: 'Sarala';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 39px;
-    color: #fff;
- 
-}
-
-.conteudo-principal-escrito-botao {
-    background-color: #fff;
-    position: absolute;
-    width: 94px;
-    height: 33px;
-    left: 268px;
-    top: 399px;
-    font-family: 'Sarala';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 33px;
-    color: #000;
-    position: absolute;
-    width: 148px;
-    height: 44px;
-    left: 228px;
-    top: 394px;
-    border-radius: 19px;
-}
-
-.conteudo-principal-escrito-botao:hover {
-    background-color: rgb(52, 36, 58);
-}
-
-.conteudo-principal-imagem {
-    height: 300px;
-}
-
-.conteudo-secundario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-    margin-top: 100px;
-}
-
-.conteudo-secundario-titulo {
-    border-top: 0.5px solid #DA627D;
-    padding-top: 50px;
-    position: relative;
-    width: 271px;
-    height: 44px;
-    font-family: 'Righteous';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-
-    color: #fff;
-}
-
-.conteudo-secundario-paragrafo {
-    position: relative;
-    width: 1106px;
-    height: 180px;
-    font-family: 'Sarala';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #fff;
-}
-
-.Card {
-    background: #DA627D;
-    height: 365px;
-    width: 335px;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-
-}
-
-.Card i {
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: #DA627D;
-}
-
-h5 {
-    color: #fff;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-
-
-
-button {
-    background-color: #9c61b0;
-    color: #000;
-    text-transform: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    font-family: 'Sarala';
-    padding: 13px 20px;
-    border-radius: 30px;
-    transition: .4s;
-
+h2 {
+    padding-top: 1.5px;
+    padding-right: 0px;
 }
 
 button:hover {
     background-color: transparent;
-    border: 2px solid #9c61b0;
+    border: 2px solid #450920;
     cursor: pointer;
 }
 
@@ -297,14 +146,11 @@ h5 {
     margin-bottom: 15px;
 }
 
-.Paragrafo-button button {
-    margin-top: 25px;
-}
 
 .me-contate {
     width: 100%;
     height: 290px;
-    background-color: #3f3d56;
+    background-color: #DA627D;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,7 +188,7 @@ footer p {
 
 .end {
     position: fixed;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
     align-items: center;
     justify-content: center;
     bottom: 0;
@@ -379,6 +225,49 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 0;
+}
+
+button {
+    background-color: #a53860;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-family: 'Sarala';
+    color: #450920;
+    border-radius: 30px;
+
+}
+
+.linkedin {
+width: 143px;
+height: 44px;
+ left: 816px;
+ top: 492px;
+ color: #450920;
+}
+
+.github {
+    width: 143px;
+    height: 44px;
+    left: 816px;
+    top: 492px;
+    color: #450920;
+}
+
+.instagram {
+    width: 143px;
+    height: 44px;
+    left: 816px;
+    top: 492px;
+    color: #450920;
+}
+
+.tiktok {
+         width: 143px;
+        height: 44px;
+        left: 816px;
+        top: 492px;
+        color: #450920;
 }
 
 .input-box {
