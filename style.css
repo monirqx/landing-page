@@ -14,12 +14,12 @@ header {
 body {
     font-size: 100%;
     width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #ffa5ab;
-        border-radius: 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffa5ab;
+    border-radius: 30px;
 }
 
 .container {
@@ -66,13 +66,16 @@ body {
 
 h1 {
     align-items: center;
-    padding-top: 40px;
-    padding: 0%;
+    position: absolute;
+    top: 300px;
+    left: 1195px;
 }
 
 h2 {
-    padding-top: 1.5px;
-    padding-right: 0px;
+    align-items: center;
+    position: absolute;
+    top: 360px;
+    left: 1290px;
 }
 
 button:hover {
@@ -81,20 +84,180 @@ button:hover {
     cursor: pointer;
 }
 
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+    .linkedin {
+    width: 143px;
+    height: 44px;
+    left: 816px;
+    top: 492px;
+    color: #a53860;
+    position: absolute;
+    width: 143px;
+    height: 44px;
+    left: 1150px;
+    top: 420px;
+}
+    
+    .github {
+        width: 143px;
+        height: 44px;
+        left: 816px;
+        top: 492px;
+        color: #a53860;
+        position: absolute;
+        width: 143px;
+        height: 44px;
+        left: 1450px;
+        top: 420px;
+    }
+    
+    .instagram {
+        width: 143px;
+        height: 44px;
+        left: 816px;
+        top: 492px;
+        color: #a53860;
+        position: absolute;
+        width: 143px;
+        height: 44px;
+        left: 1150px;
+        top: 500px;
+    }
+    
+    .tiktok {
+             width: 143px;
+            height: 44px;
+            left: 816px;
+            top: 492px;
+            color: #a53860;
+            position: absolute;
+            width: 143px;
+            height: 44px;
+            left: 1450px;
+            top: 500px;
+    }
+    
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.1rem;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    
+    .input-box input {
+
+        border: none;
+        border-radius: 30px;
+        box-shadow: 1px 1px 6px #0000001c;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    
+    .input-box input:hover {
+        background: #450920;
+    }
+    
+    .input-box label,
+    .gender-title h6 {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #000000c0;
+    }
+    
+    .input-box input::placeholder {
+        color: #000000be;
+    }
+
+button {
+    background-color: #a53860;
+    text-transform: none;
+    border: 2px;
+    font-weight: bold;
+    font-family: 'Sarala';
+    color: #450920;
+    border-radius: 30px;
+}
+
+button:hover {
+    background: #581c33;
+}
+
+
+.me-contate {
+    width: 500px;
+    height: 90px;
+    background-color: #DA627D;
+    position: absolute;
+    left: 1220px;
+    top: 620px;
+}
+
+
+.email {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.me-contate p {
+    color: #fff;
+    font-family: 'Righteous';
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 0;
+    display: flex;
+    bottom: 0;
+}
+
+footer p {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Righteous';
+    width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    align-items: center;
+}
+
+.end {
+    position: fixed;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+/* Este é o inicio dos cards. */
+
 .Container-serviços {
     background-color: #fff;
     width: 100%;
     padding: 100px 0px;
 }
 
-.title h2 {
-    color: #fff;
-    font-size: 75px;
-    font-family: 'Roboto Condensed';
-    width: 1130px;
-    margin: 30px auto;
-    text-align: center;
-}
 
 .Caixa {
     display: flex;
@@ -158,145 +321,3 @@ h5 {
 
 }
 
-.input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-
-    .linkedin {
-    width: 143px;
-    height: 44px;
-     left: 816px;
-     top: 492px;
-     color: #a53860;
-    }
-    
-    .github {
-        width: 143px;
-        height: 44px;
-        left: 816px;
-        top: 492px;
-        color: #a53860;
-    }
-    
-    .instagram {
-        width: 143px;
-        height: 44px;
-        left: 816px;
-        top: 492px;
-        color: #a53860;
-    }
-    
-    .tiktok {
-             width: 143px;
-            height: 44px;
-            left: 816px;
-            top: 492px;
-            color: #a53860;
-    }
-    
-    .input-box {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1.1rem;
-    }
-    
-    .input-box input {
-        margin: 0.6rem 0;
-        padding: 0.8rem 1.2rem;
-        border: none;
-        border-radius: 30px;
-        box-shadow: 1px 1px 6px #0000001c;
-        font-size: 0.8rem;
-    }
-    
-    .input-box input:hover {
-        background: #450920;
-    }
-    
-    .input-box label,
-    .gender-title h6 {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: #000000c0;
-    }
-    
-    .input-box input::placeholder {
-        color: #000000be;
-    }
-
-button {
-    background-color: #a53860;
-    text-transform: none;
-    border: 2px;
-    font-weight: bold;
-    font-family: 'Sarala';
-    color: #450920;
-    border-radius: 30px;
-
-}
-
-button:hover {
-    background: #581c33;
-}
-
-
-.me-contate {
-    width: 100%;
-    height: 290px;
-    background-color: #DA627D;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.email {
-    width: 50%;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.me-contate p {
-    color: #fff;
-    font-family: 'Righteous';
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 25px;
-}
-
-footer {
-    position: fixed;
-    width: 100%;
-    height: 0;
-    display: flex;
-    bottom: 0;
-}
-
-footer p {
-    color: #000;
-    font-size: 15px;
-    font-family: 'Righteous';
-    width: 500px;
-    text-align: center;
-    margin-top: 15px;
-    letter-spacing: 1px;
-    line-height: 23px;
-    align-items: center;
-}
-
-.end {
-    position: fixed;
-    padding: 10px 10px 10px 10px;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-}
