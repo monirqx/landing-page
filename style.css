@@ -19,7 +19,7 @@ body {
         justify-content: center;
         align-items: center;
         background-color: #ffa5ab;
-    border-radius: 30px;
+        border-radius: 30px;
 }
 
 .container {
@@ -44,26 +44,14 @@ body {
     width: 40rem;
 }
 
-.form-header h1::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background-color: #ffa5ab;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 30px;
-}
-
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 24px;
-    background-color: #ffa5ab;
     border-radius: 30px;
-
+    background-color: #ffa5ab;
 }
 
 .cabecalho-imagem {
@@ -88,8 +76,8 @@ h2 {
 }
 
 button:hover {
-    background-color: transparent;
-    border: 2px solid #450920;
+    background-color: #450920;
+    border: 2px;
     cursor: pointer;
 }
 
@@ -146,6 +134,114 @@ h5 {
     margin-bottom: 15px;
 }
 
+.Redes-sociais {
+    display: flex;
+
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DA627D;
+    padding: 3rem;
+    border-radius: 30px;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DA627D;
+
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+    .linkedin {
+    width: 143px;
+    height: 44px;
+     left: 816px;
+     top: 492px;
+     color: #a53860;
+    }
+    
+    .github {
+        width: 143px;
+        height: 44px;
+        left: 816px;
+        top: 492px;
+        color: #a53860;
+    }
+    
+    .instagram {
+        width: 143px;
+        height: 44px;
+        left: 816px;
+        top: 492px;
+        color: #a53860;
+    }
+    
+    .tiktok {
+             width: 143px;
+            height: 44px;
+            left: 816px;
+            top: 492px;
+            color: #a53860;
+    }
+    
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.1rem;
+    }
+    
+    .input-box input {
+        margin: 0.6rem 0;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 1px 1px 6px #0000001c;
+        font-size: 0.8rem;
+    }
+    
+    .input-box input:hover {
+        background: #450920;
+    }
+    
+    .input-box label,
+    .gender-title h6 {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #000000c0;
+    }
+    
+    .input-box input::placeholder {
+        color: #000000be;
+    }
+
+button {
+    background-color: #a53860;
+    text-transform: none;
+    border: 2px;
+    font-weight: bold;
+    font-family: 'Sarala';
+    color: #450920;
+    border-radius: 30px;
+
+}
+
+button:hover {
+    background: #581c33;
+}
+
 
 .me-contate {
     width: 100%;
@@ -157,10 +253,20 @@ h5 {
     align-items: center;
 }
 
+
+.email {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 .me-contate p {
     color: #fff;
     font-family: 'Righteous';
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
     margin-bottom: 25px;
 }
@@ -172,7 +278,6 @@ footer {
     display: flex;
     bottom: 0;
 }
-
 
 footer p {
     color: #000;
@@ -194,112 +299,4 @@ footer p {
     bottom: 0;
     width: 100%;
     height: 40px;
-    background: #FFA5AB;
-
-}
-
-.Redes-sociais {
-    display: flex;
-
-}
-
-.form {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #DA627D;
-    padding: 3rem;
-    border-radius: 30px;
-}
-
-.form-header {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.input-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
-}
-
-button {
-    background-color: #a53860;
-    text-transform: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    font-family: 'Sarala';
-    color: #450920;
-    border-radius: 30px;
-
-}
-
-.linkedin {
-width: 143px;
-height: 44px;
- left: 816px;
- top: 492px;
- color: #450920;
-}
-
-.github {
-    width: 143px;
-    height: 44px;
-    left: 816px;
-    top: 492px;
-    color: #450920;
-}
-
-.instagram {
-    width: 143px;
-    height: 44px;
-    left: 816px;
-    top: 492px;
-    color: #450920;
-}
-
-.tiktok {
-         width: 143px;
-        height: 44px;
-        left: 816px;
-        top: 492px;
-        color: #450920;
-}
-
-.input-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.1rem;
-}
-
-.input-box input {
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 30px;
-    box-shadow: 1px 1px 6px #0000001c;
-    font-size: 0.8rem;
-}
-
-.input-box input:hover {
-    background-color: #eeeeee75;
-}
-
-.input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
-}
-
-.input-box label,
-.gender-title h6 {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #000000c0;
-}
-
-.input-box input::placeholder {
-    color: #000000be;
 }
