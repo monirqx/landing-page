@@ -28,6 +28,7 @@ body {
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
     border-radius: 30px;
+    background-color: #DA627D;
 }
 
 .form-image {
@@ -75,7 +76,7 @@ h2 {
     align-items: center;
     position: absolute;
     top: 360px;
-    left: 1290px;
+    left: 1280px;
 }
 
 button:hover {
@@ -91,7 +92,7 @@ button:hover {
 
 }
 
-    .linkedin {
+    button.linkedin {
     width: 143px;
     height: 44px;
     left: 816px;
@@ -196,70 +197,37 @@ button:hover {
 .me-contate {
     width: 500px;
     height: 90px;
-    background-color: #DA627D;
-    position: absolute;
-    left: 1220px;
-    top: 620px;
+    background-color: transparent;
+    position: relative;
+    left: 220px;
+    top: 500px;
 }
 
-
-.email {
-    width: 50%;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
 .me-contate p {
-    color: #fff;
+    color: #000;
     font-family: 'Righteous';
     font-size: 20px;
     font-weight: normal;
     margin-bottom: 25px;
 }
 
-footer {
-    position: fixed;
-    width: 100%;
-    height: 0;
+.email {
     display: flex;
-    bottom: 0;
-}
-
-footer p {
-    color: #000;
-    font-size: 15px;
-    font-family: 'Righteous';
-    width: 500px;
-    text-align: center;
-    margin-top: 15px;
-    letter-spacing: 1px;
-    line-height: 23px;
-    align-items: center;
-}
-
-.end {
-    position: fixed;
-    padding: 10px 10px 10px 10px;
-    align-items: center;
-    justify-content: center;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+    justify-content: flex-end;
+    align-items: baseline;    
 }
 
 /* Este é o inicio dos cards. */
 
-.Container-serviços {
-    background-color: #fff;
-    width: 100%;
-    padding: 100px 0px;
+.titletwo h5{
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
 
-
-.Caixa {
+.Caixa{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,57 +235,71 @@ footer p {
     flex-wrap: wrap;
 }
 
-.Card {
-    background: #333146;
+.Card{
+    background: #DA627D;
     height: 365px;
     width: 335px;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
-    text-align: center;
-    font-family: 'Sarala';
-    color: #fff;
-
+    text-align:  center;
+    
 }
 
-.Card i {
+.Card i{
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #3f3d56;
+    color: #f9004d;
 }
 
-h5 {
+h5{
     color: #fff;
     font-size: 23px;
-    font-family: 'Righteous';
-    font-weight: normal;
     margin-bottom: 15px;
 }
 
-.Redes-sociais {
-    display: flex;
-
+.Paragrafo-button{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
 }
 
-.form {
-    width: 50%;
+.Paragrafo-button button{
+    margin-top: 25px;
+}
+
+/* inicio do footer */
+
+
+footer {
+    position: absolute;
     display: flex;
-    flex-direction: column;
+    bottom: 0;
+    width: 67px;
+    height: 20px;
+    left: 662px;
+    top: 992px;
+}
+
+footer p {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Righteous';
+    width: 500px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.end {
+    position: fixed;
     justify-content: center;
-    align-items: center;
-    background-color: #DA627D;
-    padding: 3rem;
-    border-radius: 30px;
+    padding-left: 250px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
 }
-
-.form-header {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: #DA627D;
-
-}
-
