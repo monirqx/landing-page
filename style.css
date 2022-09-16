@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ header {
     color: #000;
     background-color: #000;
 }
+
 body {
     font-size: 100%;
     width: 100%;
@@ -92,7 +94,7 @@ button:hover {
 
 }
 
-    button.linkedin {
+button.linkedin {
     width: 143px;
     height: 44px;
     left: 816px;
@@ -104,80 +106,80 @@ button:hover {
     left: 1150px;
     top: 420px;
 }
-    
-    .github {
-        width: 143px;
-        height: 44px;
-        left: 816px;
-        top: 492px;
-        color: #a53860;
-        position: absolute;
-        width: 143px;
-        height: 44px;
-        left: 1450px;
-        top: 420px;
-    }
-    
-    .instagram {
-        width: 143px;
-        height: 44px;
-        left: 816px;
-        top: 492px;
-        color: #a53860;
-        position: absolute;
-        width: 143px;
-        height: 44px;
-        left: 1150px;
-        top: 500px;
-    }
-    
-    .tiktok {
-             width: 143px;
-            height: 44px;
-            left: 816px;
-            top: 492px;
-            color: #a53860;
-            position: absolute;
-            width: 143px;
-            height: 44px;
-            left: 1450px;
-            top: 500px;
-    }
-    
-    .input-box {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1.1rem;
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-    }
-    
-    .input-box input {
 
-        border: none;
-        border-radius: 30px;
-        box-shadow: 1px 1px 6px #0000001c;
-        font-size: 0.8rem;
-        display: flex;
-        justify-content: space-between;
-        align-content: space-between;
-    }
-    
-    .input-box input:hover {
-        background: #450920;
-    }
-    
-    .input-box label,
-    .gender-title h6 {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: #000000c0;
-    }
-    
-    .input-box input::placeholder {
-        color: #000000be;
-    }
+.github {
+    width: 143px;
+    height: 44px;
+    left: 816px;
+    top: 492px;
+    color: #a53860;
+    position: absolute;
+    width: 143px;
+    height: 44px;
+    left: 1450px;
+    top: 420px;
+}
+
+.instagram {
+    width: 143px;
+    height: 44px;
+    left: 816px;
+    top: 492px;
+    color: #a53860;
+    position: absolute;
+    width: 143px;
+    height: 44px;
+    left: 1150px;
+    top: 500px;
+}
+
+.tiktok {
+    width: 143px;
+    height: 44px;
+    left: 816px;
+    top: 492px;
+    color: #a53860;
+    position: absolute;
+    width: 143px;
+    height: 44px;
+    left: 1450px;
+    top: 500px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.input-box input {
+
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.input-box input:hover {
+    background: #450920;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
 
 button {
     background-color: #a53860;
@@ -214,65 +216,69 @@ button:hover {
 .email {
     display: flex;
     justify-content: flex-end;
-    align-items: baseline;    
+    align-items: baseline;
 }
 
 /* Este é o inicio dos cards. */
 
-.titletwo h5{
-    color: #fff;
+.titletwo h3 {
+    color: #000;
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
+    align-items: center;
+    position: absolute;
 }
 
-.Caixa{
+.Caixa {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
     min-height: 400px;
     flex-wrap: wrap;
 }
 
-.Card{
+
+.Card {
     background: #DA627D;
     height: 365px;
     width: 335px;
     border-radius: 20px;
-    margin: 15px;
+    margin: 35px;
     position: relative;
     overflow: hidden;
-    text-align:  center;
-    
+    text-align: center;
+
 }
 
-.Card i{
+.Card i {
     font-size: 50px;
-    display: block;
+    display: flex;
     text-align: center;
     margin: 25px 0px;
     color: #f9004d;
 }
 
-h5{
-    color: #fff;
+h5 {
+    color: #000;
     font-size: 23px;
     margin-bottom: 15px;
 }
 
-.Paragrafo-button{
+.Paragrafo-button {
     color: #fcfc;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
 }
 
-.Paragrafo-button button{
+.Paragrafo-button button {
     margin-top: 25px;
 }
 
-/* inicio do footer */
+/* inicio do footer   */
 
 
 footer {
